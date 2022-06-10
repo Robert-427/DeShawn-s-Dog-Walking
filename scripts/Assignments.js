@@ -1,4 +1,4 @@
-import { getPets, getWalkers } from "./database.js"
+import { getPets, getWalkers} from "./database.js"
 
 // Get copy of state for use in this module
 const pets = getPets()
@@ -27,7 +27,7 @@ export const Assignments = () => {
         assignmentHTML += `
             <li>
                 ${currentPet.name} is being walked by
-                ${currentPetWalker.name} in ${currentPetWalker.city}
+                ${currentPetWalker.name} in ${currentPet.city}
             </li>
         `
     }

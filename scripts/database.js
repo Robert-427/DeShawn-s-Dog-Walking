@@ -19,16 +19,16 @@ const database = {
         { id: 10, name: "Arv Biddle", email: "abiddle9@cafepress.com" }
     ],
     pets: [
-        { id: 1, name: "Dianemarie Hartness", walkerId: 3 },
-        { id: 2, name: "Christoph Fosdyke", walkerId: 10 },
-        { id: 3, name: "Rocket", walkerId: 7 },
-        { id: 4, name: "Ebony", walkerId: 3 },
-        { id: 5, name: "Scotty", walkerId: 8 },
-        { id: 6, name: "Mac", walkerId: 2 },
-        { id: 7, name: "Oreo", walkerId: 5 },
-        { id: 8, name: "Sassy", walkerId: 1 },
-        { id: 9, name: "Salem", walkerId: 9 },
-        { id: 10, name: "Panda", walkerId: 7 }
+        { id: 1, name: "Dianemarie Hartness", walkerId: 3, city: "Pittsburgh" },
+        { id: 2, name: "Christoph Fosdyke", walkerId: 10, city: "Minneapolis" },
+        { id: 3, name: "Rocket", walkerId: 7, city: "Phoenix" },
+        { id: 4, name: "Ebony", walkerId: 3, city: "Tucson" },
+        { id: 5, name: "Scotty", walkerId: 8, city: "Denver" },
+        { id: 6, name: "Mac", walkerId: 2, city: "Boise" },
+        { id: 7, name: "Oreo", walkerId: 5, city: "San Diego" },
+        { id: 8, name: "Sassy", walkerId: 1, city: "Sarasota" },
+        { id: 9, name: "Salem", walkerId: 9, city: "White Plains" },
+        { id: 10, name: "Panda", walkerId: 7, city: "Chicago" }
     ],
     walkerCities: [
         { id: 1, walkerId: 10, cityId: 1 },
